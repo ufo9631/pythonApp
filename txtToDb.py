@@ -45,7 +45,7 @@ def getDb():
     myCursor.execute(sqlSelect)
     movies=myCursor.fetchall()  #fetchall 得到查询的结果集
     for movie in movies:
-        print("name:",movies[0])
+        print("name:",movie[1])
     conn.close()
 getDb()
 
