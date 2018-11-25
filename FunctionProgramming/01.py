@@ -95,3 +95,57 @@ def myAdd(x,y):
 rst=reduce(myAdd,[1,2,3,4,5,6]) #对列表[1,2,3,4,5,6]执行myadd的reduce操作
 print(rst)
 
+
+#fileter 函数
+#过滤函数：对一组数据进行过滤，符合条件的数据会生成一个新的列表并返回
+#跟map比较：
+#相同：都对列表的每一个元素逐一进行操作
+#不同：map会生成一个跟原来数据想对应的新队列
+#filter不一定，只要符合条件的才会进入新的 数据集合
+#filter函数怎么写：
+#利用给定函数进行判断
+#返回值一定是个bool值
+#调用格式：filter(f,data) f是过滤函数，data是数据
+
+#filter案例
+def isEven(a):
+    return  a%2==0
+
+l=[1,2,3,4,5,5,6,7,8,10]
+rst=filter(isEven,l)
+print(rst)
+for i in rst:
+    print(i)
+
+print([i for i in rst])
+
+#高阶函数-排序
+#把一个序列按照给定的算法进行排序
+#key:在排序前对每一个元素进行key函数运算，可以理解成按照key函数定义的逻辑进行排序
+a=[123,443,54,64,4,5,234,567,867]
+al=sorted(a,reverse=True) #reverse=True倒序
+print(al)
+
+#排序案例2
+a=[-45,-8,45,1,3,98,45,68,99]
+#按照绝对值进行排序
+#abs是绝对值的函数
+al=sorted(a,key=abs,reverse=True)
+print(al)
+
+astr=['sdf','wE','eD','sdfwer']
+str1=sorted(astr)
+print(str1)
+str2=sorted(astr,key=str.lower)
+print(str2)
+
+#返回函数
+#函数可以返回具体的值
+#也可以返回一个函数作为结果
+def myF(a):
+    print("In MyF")
+    return None
+a=myF(8)
+print(a)
+
+
