@@ -1,0 +1,30 @@
+DEBUG:root:this is a debug log
+INFO:root:this is a info log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+CRITICAL:root:this is a critical log
+DEBUG:root:this is a debug log
+DEBUG:root:this is a debug log
+INFO:root:this is a info log
+WARNING:root:this is a warning log
+ERROR:root:this is a error log
+CRITICAL:root:this is a critical log
+DEBUG:root:this is a debug log
+2018-12-22 18:03:17,652=======DEBUG++++++++++(message)s
+2018-12-22 18:03:17,652=======INFO++++++++++(message)s
+2018-12-22 18:03:17,652=======WARNING++++++++++(message)s
+2018-12-22 18:03:17,653=======ERROR++++++++++(message)s
+2018-12-22 18:03:17,653=======CRITICAL++++++++++(message)s
+2018-12-22 18:03:17,653=======DEBUG++++++++++(message)s
+2018-12-22 18:03:43,085=======DEBUG++++++++++(msg)s
+2018-12-22 18:03:43,085=======INFO++++++++++(msg)s
+2018-12-22 18:03:43,085=======WARNING++++++++++(msg)s
+2018-12-22 18:03:43,085=======ERROR++++++++++(msg)s
+2018-12-22 18:03:43,085=======CRITICAL++++++++++(msg)s
+2018-12-22 18:03:43,085=======DEBUG++++++++++(msg)s
+2018-12-22 18:04:04,371=======DEBUG++++++++++this is a debug log
+2018-12-22 18:04:04,371=======INFO++++++++++this is a info log
+2018-12-22 18:04:04,371=======WARNING++++++++++this is a warning log
+2018-12-22 18:04:04,371=======ERROR++++++++++this is a error log
+2018-12-22 18:04:04,371=======CRITICAL++++++++++this is a critical log
+2018-12-22 18:04:04,371=======DEBUG++++++++++this is a debug log
