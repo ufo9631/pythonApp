@@ -1,0 +1,33 @@
+class Animal:
+    def eat(self):
+        print("----吃----")
+    def drink(self):
+        print("----喝----")
+    def sleep(self):
+        print("----睡觉----")
+    def run(self):
+        print("----跑----")
+
+class Dog(Animal):
+    def bark(self):
+        print("------汪汪叫------")
+
+class Xiaotq(Dog):
+    def fly(self):
+        print("-----飞----")
+
+    def bark(self): #方法重写
+        print("------狂叫------")
+        #第一种调用父类被重写的方法
+        #Dog.bark(self) #调用父类方法
+        super().bark()
+
+
+wangcai=Dog()
+wangcai.eat()
+
+
+xiaotq=Xiaotq()
+xiaotq.fly()
+xiaotq.bark()
+xiaotq.eat()
